@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Two_no_addition{
+        public static void main(String[] args){
+           Scanner Myobj = new Scanner(System.in);
+            System.out.println("ENTER FIRST NUMBER-"); 
+            int a= Myobj.nextInt();
+            System.out.println("ENTER SECOND NUMBER-"); 
+            int b= Myobj.nextInt();
+
+            int c=a+b;
+            System.out.println("TOTAL IS="+c);
+        
+        } 
+ } 
+
