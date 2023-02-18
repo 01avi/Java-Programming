@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Find_odd_even
+{
+public static void main(String[] args){
+    Scanner Find=new Scanner(System.in);
+    System.out.println("ENTER NUMBER");
+    int a=Find.nextInt();
+    if(a%2==0)
+    System.out.println("NUMBER IS EVEN");
+    else
+    System.out.println("NUMBER IS ODD");
+}
+}
