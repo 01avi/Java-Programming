@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Amount_withdraw
+{
+public static void main(String[] args){
+    Scanner Find=new Scanner(System.in);
+    System.out.println("ENTER AMOUNT");
+    int a=Find.nextInt();
+    if(a>=500){
+        if(a<=20000)
+        System.out.println("WITHDRAWL SUCCESSFUL!!");
+        else
+        System.out.println("INVALID INPUT");
+    }
+   else
+   System.out.println("AMOUNT MUST BE GREATER THEN 500rs.");
+    }
+}
