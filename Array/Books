@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Books {
+    public static void main(String[] args) {
+      
+        Scanner input = new Scanner(System.in);
+        System.out.println("ENTER ONE DIGIT MORE THAN THE TOTAL NO OF BOOKS:- ");
+        int size = input.nextInt();
+        String books[] = new String[size];
+
+        System.out.println("Enter books name:- ");
+      
+        for (int i = 0; i < size; i++) {
+            books[i] = input.nextLine();
+        }
+             System.out.println("YOU ENTERED:-");
+     
+         for (int i = 0; i < size; i++) {
+            System.out.println(books[i]);
+        }
+       
+        System.out.println();
+        System.out.println(" IF THESE BOOKS ARE CORRECT PRESS 1 FOR CONFIRM ELSE PRESS 0:- ");
+        System.out.println();
+        int c = input.nextInt();
+        if (c == 1) {
+            System.out.println("CONGRATULATIONS YOUR BOOKS ARE SAVE SUCCESSFULLY!!!");
+        } else if (c == 0) {
+            System.out.println("TRY AGAIN!!!!");
+        
+        } else {
+            System.out.println("INVALID INPUT!!!");
+        }
+    }
+}
