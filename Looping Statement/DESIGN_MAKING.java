@@ -1,4 +1,5 @@
-import java.util.Scanner;
+i
+mport java.util.Scanner;
 public class DESIGN_MAKING
 {
 public static void main(String[] args){
