@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class CompareString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First String:-");
+        String one = sc.nextLine();
+        System.out.println("Enter Second String:-");
+        String two = sc.nextLine();
+
+        //1 S1 > S2   : +ve value
+        //2 S1 < S2   : -ve value
+        //3 S1 == S2  :  zero
+
+        System.out.println();
+        if (one.compareTo(two) > 0) {
+            System.out.println("Strings " + one + " is Greater");
+        } else if (one.compareTo(two) < 0) {
+            System.out.println("Strings " + two + " is Greater");
+        } else {
+            System.out.println("String " + one + " and " + two + " are Equal");
+        }
+    }
+}
