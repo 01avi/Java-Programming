@@ -1,0 +1,14 @@
+abstract class A{
+    public void f1(){
+        System.out.println("I AM f1 FUNCTION");
+    }
+}
+class B extends A{
+
+}
+public class Abstract_class_example{
+    public static void main(String[] args){
+    B obj=new B();
+    obj.f1();
+    }
+}
