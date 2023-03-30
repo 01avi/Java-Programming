@@ -1,5 +1,6 @@
 abstract class A{
     public void f1(){
+    
         System.out.println("I AM f1 FUNCTION");
     }
 }
