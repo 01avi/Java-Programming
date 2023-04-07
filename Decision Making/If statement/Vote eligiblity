@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Vote_eligibility
 {
 public static void main(String[] args){
