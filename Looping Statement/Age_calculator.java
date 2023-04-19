@@ -1,4 +1,4 @@
-T import java.util.Scanner;
+import java.util.Scanner;
  public class Age_calculator
  {
  public static void main(String[] args){
