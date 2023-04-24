@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Family_member {
     public static void main(String[] args) {
+        
 
         String n[] = new String[1];
         String m[] = new String[1];
